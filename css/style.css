@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu__item {
+    display: inline-block;
+    border: 1px solid gray;
+    margin: -2.5px;
+    padding: 10px;
+}
+.border_left {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; 
+}
+.border_right {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.menu__item:hover {
+    background-color: darkblue;
+    color: white;
+}
+ul {
+    padding: 0px;
+}
